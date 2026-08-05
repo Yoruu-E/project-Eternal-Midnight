@@ -1,0 +1,163 @@
+html {
+	background-color: #0b072b;
+
+
+	font-family: "Story Script", sans-serif;
+}
+
+body {
+	width: auto;
+	margin: center;
+
+	padding: 20px 20px 20px 20px;
+	
+}
+
+header {
+	display: flow-root;
+	overflow: auto ;
+    background-color: #04011c;
+	border: 5px double #3539a4;
+	border-radius: 40px;
+	border-sh
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0px;
+	height: 60px;
+	padding: 30px;
+	background-color: #060941;
+	border-top:5px double #3539a4; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 10px;
+	height: auto;
+}
+
+.navbar .navbarit{
+	flex: 1 1 200px;
+	max-width: 300px;
+}
+
+.navbar .navbarit a {
+	display: block;
+	color: #bc8cf8;
+	text-align: center;
+	padding: 12px 12px;
+	text-shadow: 2px 2px  2px #a0a8eb;
+	text-decoration: none;
+	background-color: #04011c;
+	border: 1px double; #3539a4;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+
+.navbar .navbarit a:hover{
+	color: #7c44bc;
+	background-color: #2a2b8e;
+	border-color: #bc8cf8;
+}
+
+main {
+	border: 5px double #3539a4;
+	border-radius: 40px;
+	margin: 1em 0;
+	background-color: #04011c;
+}
+
+
+h1 {
+	margin: 0;
+	padding: 20px 0;
+	color: #a0a8eb;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 2px 2px 10px #bc8cf8;
+}
+.About {
+	display: block;
+	font-size: 35px;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+	justify-content: center;
+
+}
+
+.Extras {
+	display: block;
+	font-size: 35px;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+	justify-content: center;
+
+}
+
+.head4 {
+	display: block;
+	font-size: 35px;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+}
+#heading4 {
+	display: block;
+	font-size: 40px;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+
+}
+
+.heading3{
+	cursor: pointer;
+	display: flow-root;
+	overflow: auto ;
+	font-size: 28px ;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+}
+
+.Aboutquestions {
+	display: none;
+	font-size: 20px ;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+}
+
+.extras {
+	display: none;
+	font-size: 20px ;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+}
+
+.Products {
+	display: none;
+	font-size: 20px ;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+}
+
+
+#homepara {
+	display: flow-root;
+	overflow: auto ;
+	font-size: 25px ;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
