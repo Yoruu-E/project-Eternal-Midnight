@@ -130,6 +130,14 @@ h1 {
 	text-shadow: 2px 2px 10px #bc8cf8;
 }
 
+.announcments {
+	display: none;
+	font-size: 20px ;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+}
+
 .extras {
 	display: none;
 	font-size: 20px ;
