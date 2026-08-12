@@ -67,6 +67,14 @@ main {
 	background-color: #04011c;
 }
 
+.Announcements {
+	border: none !important;
+    background-color: transparent !important;
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+}
+
 
 h1 {
 	margin: 0;
@@ -76,7 +84,62 @@ h1 {
 	text-align: center;
 	text-shadow: 2px 2px 10px #bc8cf8;
 }
-.About {
+.about {
+	display: block;
+	font-size: 35px;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+	justify-content: center;
+
+}
+
+.Abbout {
+	width: 100%;
+	box-sizing: border-box;
+	border: 5px double #3539a4;
+	border-radius: 40px;
+	margin: 1em 0;
+	padding: 20px;
+	background-color: #04011c;
+	display: block;
+	font-size: 35px;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+	justify-content: center;
+
+}
+
+.changelogs {
+	width: 100%;
+	box-sizing: border-box;
+	border: 5px double #3539a4;
+	border-radius: 40px;
+	margin: 1em 0;
+	padding: 20px;
+	background-color: #04011c;
+	display: block;
+	font-size: 35px;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+	justify-content: center;
+
+}
+
+.pro3 {
+	display: flow-root;
+	overflow: auto;
+}
+
+.pro2 {
+	width: 100%;
+	box-sizing: border-box;
+	border-top: 5px double #3539a4;
+	margin-bottom: 0;
+	padding: 20px;
+	background-color: #04011c;
 	display: block;
 	font-size: 35px;
 	text-align: center;
