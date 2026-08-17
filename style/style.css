@@ -67,6 +67,12 @@ main {
 	background-color: #04011c;
 }
 
+.ULL .Li {
+	color: #bc8cf8;
+	text-shadow: 2px 2px  2px #a0a8eb;
+	text-decoration: none;
+}
+
 .Announcements {
 	border: none !important;
     background-color: transparent !important;
@@ -177,6 +183,15 @@ h1 {
 
 .heading3{
 	cursor: pointer;
+	display: flow-root;
+	overflow: auto ;
+	font-size: 28px ;
+	text-align: center;
+	color: #9299e4;
+	text-shadow: 2px 2px 10px #bc8cf8;
+}
+
+.H2{
 	display: flow-root;
 	overflow: auto ;
 	font-size: 28px ;
